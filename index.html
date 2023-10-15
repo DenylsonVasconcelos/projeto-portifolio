@@ -4,12 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="..//styles/style.css">
   <title>Portifolio</title>
 </head>
 
 <body>
-  <header></header>
+  
+  <header class="cabecalho">
+    <nav class="cabecalho__menu">
+      <a class="cabecalho__menu__link" href="index.html">Home</a>
+      <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+    </nav>
+  </header>
+  
   <main class="apresentacao">
 
     <section class="apresentacao__conteudo">
@@ -17,22 +24,38 @@
           qualidade!</strong></h1>
 
       <p class="apresentacao__conteudo__texto">
-        Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em <strong>ANGULAR, HTML e CSS</strong>. Ajudo
+        Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em <strong class="titulo-destaque">ANGULAR, HTML e CSS</strong>. Ajudo
         pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
       </p>
 
       <div class="apresentacao__links">
-        <a class="apresentacao__links__link" href="https://www.instagram.com/">Instagram</a>
-        <a class="apresentacao__links__link" href="https://github.com/">GitHub</a>
+        <h2 class="apresentacao__links__subtitulo" >Acesse minhas redes:</h2>
+        <a class="apresentacao__links__link" href="https://github.com/">
+          <img src="./assets/img/github.png" alt="">
+          Github
+        </a>
+        
+        <a class="apresentacao__links__link" href="https://www.linkedin.com/">
+          <img src="./assets/img/linkedin.png" alt="">
+          Linkedin
+        </a>
+        
+        <a class="apresentacao__links__link" href="https://www.instagram.com/">
+          <img src="./assets/img/instagram.png" alt="">
+          Instagram
+        </a>
+
       </div>
 
     </section>
 
-    <img class="apresentacao__conteudo__img" src="./img/Cat.png" alt="Denilson Vasconcelos">
+    <img class="apresentacao__conteudo__img" src=".//assets/img/Cat.png" alt="Gato">
 
 
   </main>
-  <footer></footer>
+  <footer class="rodape">
+    <p>Desenvolvido por Denilson Vasconcelos.</p>
+  </footer>
 </body>
 
 </html>
